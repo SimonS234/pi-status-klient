@@ -34,10 +34,9 @@ Statusen din dukker også opp i lærerens oversikt i løpet av et halvt minutt.
 
 ## Neste gang du vil kjøre programmet
 
-Du trenger bare lage `venv` første gang du kjører programmet. Så neste gang skriver du bare:
+Du trenger bare lage `venv` første gang du kjører programmet. Så neste gang åpner du mappen i terminalen og skriver bare:
 
 ```bash
-cd elev_klient # åpne mappen elev_klient i terminalen
 source venv/bin/activate
 python app.py
 ```
