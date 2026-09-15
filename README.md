@@ -13,10 +13,9 @@ NAME = "Ola Nordmann"                           # ← ditt eget navn
 
 
 ## 2. Installer og start
-Kjør disse linjene en etter en:
+Åpne mappen med filene og kjør disse linjene en etter en:
 
 ```bash
-cd elev_klient # åpne mappen elev_klient i terminalen
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
