@@ -1,13 +1,13 @@
 # Pi-monitor – elev
 
-Denne Pi-en viser sin egen status på en nettside, og sender den også infoen til en server på lærerens PI.
+Dette programet lager en nettside hvor du kan se informasjon om maskinen den kjører på. Programmet sender også infoen til en server som kan vise infoen fra alle maskinene som er koblet til.
 
 ## 1. Skriv inn navn og lærerens IP
 
-Åpne `elev_klient/app.py` og endre de to øverste linjene:
+Åpne `elev_klient/app.py` og endre disse linjene:
 
 ```python
-TEACHER_URL = "http://192.168.1.1:5000/data"   # ← IP-adressen du får av læreren. Husk port 5000 og /data til slutt, og http:// foran!
+TEACHER_URL = "http://192.168.1.1:5000/data"   # ← bytt til IP-adressen du får av læreren. Husk port 5000 og /data til slutt, og http:// foran!
 NAME = "Ola Nordmann"                           # ← ditt eget navn
 ```
 
