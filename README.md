@@ -7,7 +7,7 @@ Denne Pi-en viser sin egen status på en nettside, og sender den også infoen ti
 Åpne `elev_klient/app.py` og endre de to øverste linjene:
 
 ```python
-TEACHER_URL = "http://192.168.1.1:5000/data"   # ← IP-adressen du får av læreren. Husk port 5000 og /data til slutt.
+TEACHER_URL = "http://192.168.1.1:5000/data"   # ← IP-adressen du får av læreren. Husk port 5000 og /data til slutt, og http:// foran!
 NAME = "Ola Nordmann"                           # ← ditt eget navn
 ```
 
